@@ -79,3 +79,25 @@ gmon.out
 .venv/
 venv/
 
+
+# Local RISC-V tool installations
+riscv32/riscv32-unknown-elf/
+riscv64/riscv64-unknown-elf/
+
+# Compiled output
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.dump
+
+# Executables produced by experiments
+hello
+hello64
+hello64-noc
+
+# Local RISC-V tool installations
+riscv32/riscv32-unknown-elf/
