@@ -1,0 +1,81 @@
+# Compiled objects and libraries
+
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Executables
+
+a.out
+*.out
+
+# ELF / binary output
+
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.dump
+
+# Build directories
+
+build/
+_build/
+cmake-build-*/
+
+# CMake
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Autotools
+
+autom4te.cache/
+config.log
+config.status
+.deps/
+
+# Dependency files
+
+*.d
+
+# Debugging / profiling
+
+*.dSYM/
+*.gcda
+*.gcno
+gmon.out
+
+# Editors / IDEs
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+
+.DS_Store
+
+# Temporary files
+
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# Python cache / environments
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+
